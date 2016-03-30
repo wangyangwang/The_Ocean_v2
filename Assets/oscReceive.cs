@@ -7,14 +7,14 @@ public class oscReceive : MonoBehaviour {
 
 
 	private string UDPHost = "127.0.0.1";
-	private int listenerPort = 7771;
+	private int listenerPort = 5001;
 	private int broadcastPort = 57131;
 	private Osc oscHandler;
 
 
 //	private string eventName = "";
 //	private string eventData = "";
-	public int inputData = 0;
+	public float inputData = 0;
 
 
 	// Use this for initialization
@@ -24,23 +24,20 @@ public class oscReceive : MonoBehaviour {
 		oscHandler = GetComponent<Osc>();
 		oscHandler.init(udp);
 
-		oscHandler.SetAddressHandler("/meditation",getInput);
+		oscHandler.SetAddressHandler("/muse/elements/experimental/mellow",getInput);
 	}
 
 
 	void Update(){
-
+		
 	}
 
 	public void getInput(OscMessage oscMessage) {
 		Osc.OscMessageToString(oscMessage);
-		inputData =  Convert.ToInt32(oscMessage.Values[0]); // Int32.Parse(oscMessage.Values[0]);
+		inputData =  (float)(oscMessage.Values[0]); // Int32.Parse(oscMessage.Values[0]);
 
 
 	}
 
-	public int getData(){
-		return inputData;
-	}
 
 }

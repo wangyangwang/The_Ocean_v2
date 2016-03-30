@@ -11,7 +11,7 @@ public class OceanModifier : MonoBehaviour {
 
 	//max
 	float maxWaveSpeed = 3.0f;
-	float maxOceanScale = 18.0f;
+	float maxOceanScale = 13.0f;
 	float maxVol = 1.5f;
 
 	//current
@@ -34,9 +34,10 @@ public class OceanModifier : MonoBehaviour {
 	void Update () {
 		eegReading = GameObject.Find("osc").GetComponent<oscReceive>().inputData;
 
-		oceanScale = (map(eegReading,100,0,normalOceanScale,maxOceanScale) - oceanScale) * 0.008f + oceanScale;
-		waveSpeed = map(eegReading,0,100,normalWaveSpeed,maxWaveSpeed);
-		vol = (map(eegReading,100,0,0.0f,1.0f) - vol) * 0.035f + vol;
+		oceanScale = (map(eegReading,1,0,normalOceanScale,maxOceanScale) - oceanScale) * 0.008f + oceanScale;
+		Debug.Log("Ocean Scale: "+ oceanScale);
+		waveSpeed = map(eegReading,1,0,normalWaveSpeed,maxWaveSpeed);
+		vol = (map(eegReading,1,0,0.0f,1.0f) - vol) * 0.035f + vol;
 
 		if(oceanScale>maxOceanScale)oceanScale = maxOceanScale;
 		if(waveSpeed>maxWaveSpeed)waveSpeed = maxWaveSpeed;
