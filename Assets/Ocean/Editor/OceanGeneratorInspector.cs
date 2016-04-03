@@ -123,7 +123,7 @@ public class OceanGeneratorInspector : Editor
 		    EditorGUILayout.EndVertical();
 		
 		    EditorGUILayout.LabelField("Scale");
-			ocean.scale = (float)EditorGUILayout.Slider(ocean.scale, 0, 9);
+			ocean.scale = (float)EditorGUILayout.Slider(ocean.scale, 0, 20);
 		
 		    EditorGUILayout.LabelField("Choppy scale");
 			ocean.choppy_scale = (float)EditorGUILayout.Slider(ocean.choppy_scale, 0, 9);

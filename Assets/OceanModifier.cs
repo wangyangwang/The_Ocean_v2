@@ -11,7 +11,7 @@ public class OceanModifier : MonoBehaviour {
 
 	//max
 	float maxWaveSpeed = 3.0f;
-	float maxOceanScale = 13.0f;
+	float maxOceanScale = 12.5f;
 	float maxVol = 1.5f;
 
 	//current
@@ -34,30 +34,23 @@ public class OceanModifier : MonoBehaviour {
 	void Update () {
 		eegReading = GameObject.Find("osc").GetComponent<oscReceive>().inputData;
 
-		oceanScale = (map(eegReading,1,0,normalOceanScale,maxOceanScale) - oceanScale) * 0.008f + oceanScale;
-		Debug.Log("Ocean Scale: "+ oceanScale);
-		waveSpeed = map(eegReading,1,0,normalWaveSpeed,maxWaveSpeed);
-		vol = (map(eegReading,1,0,0.0f,1.0f) - vol) * 0.035f + vol;
+		oceanScale = (CustomFunc.Map(eegReading,1,0,normalOceanScale,maxOceanScale) - oceanScale) * 0.008f + oceanScale;
+//		Debug.Log("Ocean Scale: "+ oceanScale);
+		waveSpeed = CustomFunc.Map(eegReading,1,0,normalWaveSpeed,maxWaveSpeed);
+		vol = CustomFunc.Map (oceanScale, normalOceanScale, maxOceanScale, 0.2f, 1.0f);
 
+		AudioListener.volume = vol;
 		if(oceanScale>maxOceanScale)oceanScale = maxOceanScale;
 		if(waveSpeed>maxWaveSpeed)waveSpeed = maxWaveSpeed;
-		if(vol>maxVol)vol = maxVol;
-
 
 		if(controllingWaves){
 			myOcean.scale = oceanScale;
 		}
-		AudioListener.volume = vol;
+
 
 	}
 
-	float map(float value, 
-		float istart, 
-		float istop, 
-		float ostart, 
-		float ostop) {
-		return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
-	}
+
 
 
 }
