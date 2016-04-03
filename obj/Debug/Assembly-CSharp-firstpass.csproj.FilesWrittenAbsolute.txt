@@ -1,0 +1,17 @@
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/UnityEngine.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/UnityEditor.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/yangwang/Documents/Unity_projects/The_Ocean_v2/Temp/bin/Debug/Mono.Cecil.Mdb.dll

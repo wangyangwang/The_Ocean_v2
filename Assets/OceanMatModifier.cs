@@ -3,6 +3,7 @@ using System.Collections;
 
 public class OceanMatModifier : MonoBehaviour {
 
+
 	public Material oceanMat;
 	public GameObject oscGO;
 
@@ -13,8 +14,20 @@ public class OceanMatModifier : MonoBehaviour {
 
 	Color finalColor;
 
+	public Color[] glitchColors;
+
 	float t;
 	float incrementArg = 0.006f;
+
+
+	void OnEnable(){
+		oscReceive.Blinked += glitch;
+	}
+
+	void OnDisable(){
+		oscReceive.Blinked -= glitch;
+	}
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +35,7 @@ public class OceanMatModifier : MonoBehaviour {
 		finalColor = Color.black;
 
 		touchingStateColor = Color.black;
-		nontouchingStateColor = new Color (0.6f, 0.6f, 0.6f);
+		nontouchingStateColor = new Color (0.5f, 0.5f, 0.5f);
 		t = oscRe.touchingForehead;
 	}
 	
@@ -34,6 +47,20 @@ public class OceanMatModifier : MonoBehaviour {
 
 		if (oceanMat.GetColor ("_EmissionColor") != finalColor) {
 			oceanMat.SetColor ("_EmissionColor", finalColor);
+		}
+	}
+
+	IEnumerator glitch() {
+		
+		for (int i=0;i<glitchColors.Length;i++) {
+			
+			if (i < glitchColors.Length) {
+				oceanMat.SetColor ("_EmissionColor", glitchColors [i]);
+			}else{
+				oceanMat.SetColor ("_EmissionColor", touchingStateColor);
+			}
+
+			yield return new WaitForSeconds(0.001f);
 		}
 	}
 
