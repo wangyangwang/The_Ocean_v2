@@ -22,7 +22,7 @@ public class OceanMatModifier : MonoBehaviour {
 		finalColor = Color.black;
 
 		touchingStateColor = Color.black;
-		nontouchingStateColor = new Color (0.8f, 0.8f, 0.8f);
+		nontouchingStateColor = new Color (0.6f, 0.6f, 0.6f);
 		t = oscRe.touchingForehead;
 	}
 	

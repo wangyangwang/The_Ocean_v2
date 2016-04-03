@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Gamestrap Editor Camera\Editor\EditorCameraViewsWindow.cs" />
      <Compile Include="Assets\Ocean\Editor\OceanGeneratorInspector.cs" />
      <None Include="Assets\Ocean\Ocean Sources\Ocean.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
