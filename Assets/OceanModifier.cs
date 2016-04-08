@@ -12,6 +12,9 @@ public class OceanModifier : MonoBehaviour {
 	float minWaveSpeed = 0.3f;
 	float minVol = 0.05f;
 
+	float defaultOceanScale = 5.3f;
+	float defaultWaveSpeed = 0.7f;
+
 	//max
 	float maxWaveSpeed = 1.65f;
 	float maxOceanScale = 12.5f;
@@ -45,14 +48,14 @@ public class OceanModifier : MonoBehaviour {
 			oceanScale = (CustomFunc.Map (eegReading, 1, 0, minOceanScale, maxOceanScale) - oceanScale) * incrementArg + oceanScale;
 			waveSpeed = (CustomFunc.Map (eegReading, 1, 0, minWaveSpeed, maxWaveSpeed) - waveSpeed) * waveSpeedIncrementArg + waveSpeed;
 		} else {
-			oceanScale = (minOceanScale - oceanScale) * incrementArg + oceanScale;
-			waveSpeed = (minWaveSpeed - waveSpeed) * waveSpeedIncrementArg + waveSpeed;
+			oceanScale = (defaultOceanScale - oceanScale) * incrementArg + oceanScale;
+			waveSpeed = (defaultWaveSpeed - waveSpeed) * waveSpeedIncrementArg + waveSpeed;
 		}
 
 		oceanScale = Mathf.Clamp (oceanScale, minOceanScale, maxOceanScale);
 		waveSpeed = Mathf.Clamp (waveSpeed, minWaveSpeed, maxWaveSpeed);
 		vol = CustomFunc.Map (oceanScale, minOceanScale, maxOceanScale, minVol, maxVol);
-		vol = Mathf.Clamp (vol, 0.05f, 1.0f);
+		vol = Mathf.Clamp (vol, minVol, maxVol);
 
 		AudioListener.volume = vol;
 
