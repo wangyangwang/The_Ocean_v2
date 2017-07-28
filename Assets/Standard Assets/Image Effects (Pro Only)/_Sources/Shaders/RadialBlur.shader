@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/RadialBlur" 
 {
 	Properties {
@@ -24,7 +26,7 @@ Shader "Hidden/RadialBlur"
 		
 	v2f vert( appdata_img v ) {
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.uv.xy =  v.texcoord.xy;
 		
 		o.blurVector = (_SunPosition.xy - v.texcoord.xy) * _BlurRadius4.xy;	
@@ -57,10 +59,8 @@ Subshader
  Blend One Zero
  Pass {
 	  ZTest Always Cull Off ZWrite Off
-	  Fog { Mode off }      
 
       CGPROGRAM
-      #pragma fragmentoption ARB_precision_hint_fastest
       #pragma vertex vert
       #pragma fragment frag
       

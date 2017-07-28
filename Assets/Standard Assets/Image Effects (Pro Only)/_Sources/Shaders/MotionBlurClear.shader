@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 Shader "Hidden/MotionBlurClear" 
 {
@@ -14,7 +16,6 @@ Pass {
 
 	#pragma vertex vert
 	#pragma fragment frag
-	#pragma glsl
 
 	#include "UnityCG.cginc"
 
@@ -32,7 +33,7 @@ Pass {
 	ps_input vert (vs_input v)
 	{
 		ps_input o;
-		o.pos = mul (UNITY_MATRIX_MVP, v.vertex);	
+		o.pos = UnityObjectToClipPos (v.vertex);	
 		o.screen = ComputeScreenPos(o.pos);
 		COMPUTE_EYEDEPTH(o.screen.z);
 		return o;

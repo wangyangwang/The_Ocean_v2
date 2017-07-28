@@ -1,6 +1,9 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/ColorCorrection3DLut" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "" {}		
+		_ClutTex ("-", 3D) = "" {}
 	}
 
 CGINCLUDE
@@ -15,14 +18,16 @@ struct v2f {
 sampler2D _MainTex;
 sampler3D _ClutTex;
 
+half4 _MainTex_ST;
+
 float _Scale;
 float _Offset;
 
 v2f vert( appdata_img v ) 
 {
 	v2f o;
-	o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
-	o.uv =  v.texcoord.xy;	
+	o.pos = UnityObjectToClipPos(v.vertex);
+	o.uv = UnityStereoScreenSpaceUVAdjust(v.texcoord.xy, _MainTex_ST);
 	return o;
 } 
 
@@ -50,7 +55,6 @@ Subshader
 	Pass 
 	{
 	  ZTest Always Cull Off ZWrite Off
-	  Fog { Mode off }      
 
       CGPROGRAM
       #pragma vertex vert
@@ -62,7 +66,6 @@ Subshader
 	Pass 
 	{
 	  ZTest Always Cull Off ZWrite Off
-	  Fog { Mode off }      
 
       CGPROGRAM
       #pragma vertex vert

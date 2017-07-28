@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/MotionBlur" {
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
@@ -6,7 +8,6 @@ Properties {
 
     SubShader { 
 		ZTest Always Cull Off ZWrite Off
-		Fog { Mode off }
 		Pass {
 			Blend SrcAlpha OneMinusSrcAlpha
 			ColorMask RGB
@@ -18,7 +19,6 @@ Properties {
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#pragma fragmentoption ARB_precision_hint_fastest
 	
 			#include "UnityCG.cginc"
 	
@@ -38,7 +38,7 @@ Properties {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 				return o;
 			}
@@ -64,7 +64,6 @@ Properties {
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#pragma fragmentoption ARB_precision_hint_fastest
 	
 			#include "UnityCG.cginc"
 	
@@ -83,7 +82,7 @@ Properties {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 				return o;
 			}
@@ -101,7 +100,6 @@ Properties {
 
 SubShader {
 	ZTest Always Cull Off ZWrite Off
-	Fog { Mode off }
 	Pass {
 		Blend SrcAlpha OneMinusSrcAlpha
 		ColorMask RGB

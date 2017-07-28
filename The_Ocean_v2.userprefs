@@ -1,14 +1,18 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+﻿<Properties StartupConfiguration="{7463B060-AB62-6FBE-2A02-551AE38A2FC1}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OceanModifier.cs">
     <Files>
+      <File FileName="Assets/Ocean/Scripts/Ocean.cs" Line="67" Column="3" />
       <File FileName="Assets/oscReceive.cs" Line="1" Column="1" />
-      <File FileName="Assets/OceanMatModifier.cs" Line="25" Column="3" />
-      <File FileName="Assets/OceanModifier.cs" Line="52" Column="31" />
+      <File FileName="Assets/OceanMatModifier.cs" Line="54" Column="3" />
+      <File FileName="Assets/Ocean/Ocean Sources/Ocean.shader" Line="151" Column="17" />
+      <File FileName="Assets/OceanModifier.cs" Line="45" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.The__Ocean__v2 PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
 </Properties>

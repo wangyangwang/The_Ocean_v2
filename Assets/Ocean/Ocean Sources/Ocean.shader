@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Mobile/Ocean" {
 	Properties {
 	    _SurfaceColor ("SurfaceColor", Color) = (1,1,1,1)
@@ -42,12 +44,12 @@ Shader "Mobile/Ocean" {
     			v2f o;
     
     			o.bumpTexCoord.xy = v.vertex.xz/float2(_Size.x, _Size.z)*5;
-    			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+    			o.pos = UnityObjectToClipPos (v.vertex);
     			o.foamStrengthAndDistance.x = v.tangent.w;
     			o.foamStrengthAndDistance.y = clamp(o.pos.z, 0, 1.0);
     
   				half4 projSource = float4(v.vertex.x, 0.0, v.vertex.z, 1.0);
-    			half4 tmpProj = mul( UNITY_MATRIX_MVP, projSource);
+    			half4 tmpProj = UnityObjectToClipPos( projSource);
     			o.projTexCoord = tmpProj;
 
     			float3 objSpaceViewDir = ObjSpaceViewDir(v.vertex);
@@ -126,12 +128,12 @@ Shader "Mobile/Ocean" {
     			v2f o;
     
     			o.bumpTexCoord.xy = v.vertex.xz/float2(_Size.x, _Size.z)*5;
-    			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+    			o.pos = UnityObjectToClipPos (v.vertex);
     			o.foamStrengthAndDistance.x = v.tangent.w;
     			o.foamStrengthAndDistance.y = clamp(o.pos.z, 0, 1.0);
     
   				half4 projSource = float4(v.vertex.x, 0.0, v.vertex.z, 1.0);
-    			half4 tmpProj = mul( UNITY_MATRIX_MVP, projSource);
+    			half4 tmpProj = UnityObjectToClipPos( projSource);
 
     			float3 objSpaceViewDir = ObjSpaceViewDir(v.vertex);
     			float3 binormal = cross( normalize(v.normal), normalize(v.tangent.xyz) );

@@ -1,11 +1,13 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{0CEDA828-5B26-22EE-180F-CDB76AA57364}") = "The_Ocean_v2", "Assembly-CSharp-firstpass.csproj", "{5CA0A6B8-40CA-A872-8919-C4F1B84F0E73}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Ocean_v2.Plugins", "The_Ocean_v2.Plugins.csproj", "{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}"
 EndProject
-Project("{0CEDA828-5B26-22EE-180F-CDB76AA57364}") = "The_Ocean_v2", "Assembly-CSharp.csproj", "{F0043F7F-8740-1CA2-ECFA-7965DB68343F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Ocean_v2", "The_Ocean_v2.csproj", "{7463B060-AB62-6FBE-2A02-551AE38A2FC1}"
 EndProject
-Project("{0CEDA828-5B26-22EE-180F-CDB76AA57364}") = "The_Ocean_v2", "Assembly-CSharp-Editor.csproj", "{A42F9E5A-4F33-38AF-D4E7-4E5FDC402B53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Ocean_v2.Editor.Plugins", "The_Ocean_v2.Editor.Plugins.csproj", "{91BB5762-7223-D681-E3AD-A159A80408BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Ocean_v2.Editor", "The_Ocean_v2.Editor.csproj", "{691DBBAB-DF68-5300-6487-D19955644AB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,23 +15,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5CA0A6B8-40CA-A872-8919-C4F1B84F0E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CA0A6B8-40CA-A872-8919-C4F1B84F0E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CA0A6B8-40CA-A872-8919-C4F1B84F0E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CA0A6B8-40CA-A872-8919-C4F1B84F0E73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0043F7F-8740-1CA2-ECFA-7965DB68343F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0043F7F-8740-1CA2-ECFA-7965DB68343F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0043F7F-8740-1CA2-ECFA-7965DB68343F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0043F7F-8740-1CA2-ECFA-7965DB68343F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A42F9E5A-4F33-38AF-D4E7-4E5FDC402B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A42F9E5A-4F33-38AF-D4E7-4E5FDC402B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A42F9E5A-4F33-38AF-D4E7-4E5FDC402B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A42F9E5A-4F33-38AF-D4E7-4E5FDC402B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7463B060-AB62-6FBE-2A02-551AE38A2FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7463B060-AB62-6FBE-2A02-551AE38A2FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7463B060-AB62-6FBE-2A02-551AE38A2FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7463B060-AB62-6FBE-2A02-551AE38A2FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BB5762-7223-D681-E3AD-A159A80408BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BB5762-7223-D681-E3AD-A159A80408BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BB5762-7223-D681-E3AD-A159A80408BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BB5762-7223-D681-E3AD-A159A80408BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691DBBAB-DF68-5300-6487-D19955644AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691DBBAB-DF68-5300-6487-D19955644AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691DBBAB-DF68-5300-6487-D19955644AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691DBBAB-DF68-5300-6487-D19955644AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

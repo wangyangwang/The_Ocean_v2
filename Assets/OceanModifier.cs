@@ -1,11 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+
 
 public class OceanModifier : MonoBehaviour {
 
 	float eegReading;
 	int touchingForehead = 0;
 	public bool controllingWaves = true;
+
+    //ui
+    public GameObject levelBar;
+    public GameObject sensorConnectionStatus;
 
 	//normal
 	float minOceanScale = 4.0f;
@@ -42,14 +48,23 @@ public class OceanModifier : MonoBehaviour {
 	void Update () {
 
 		eegReading = oscReceiver.mellowValue;
+
+        levelBar.GetComponent<RectTransform>().sizeDelta = new Vector2(eegReading*100, 10);
+
 		touchingForehead = oscReceiver.touchingForehead;
+
+
 
 		if (touchingForehead == 1) {
 			oceanScale = (CustomFunc.Map (eegReading, 1, 0, minOceanScale, maxOceanScale) - oceanScale) * incrementArg + oceanScale;
 			waveSpeed = (CustomFunc.Map (eegReading, 1, 0, minWaveSpeed, maxWaveSpeed) - waveSpeed) * waveSpeedIncrementArg + waveSpeed;
+			sensorConnectionStatus.GetComponent<Text>().text = "Sensor Wearing: YES";
+
 		} else {
 			oceanScale = (defaultOceanScale - oceanScale) * incrementArg + oceanScale;
 			waveSpeed = (defaultWaveSpeed - waveSpeed) * waveSpeedIncrementArg + waveSpeed;
+			sensorConnectionStatus.GetComponent<Text>().text = "Sensor Wearing: NO";
+
 		}
 
 		oceanScale = Mathf.Clamp (oceanScale, minOceanScale, maxOceanScale);

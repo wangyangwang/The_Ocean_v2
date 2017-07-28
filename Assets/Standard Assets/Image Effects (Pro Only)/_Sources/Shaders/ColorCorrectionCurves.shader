@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/ColorCorrectionCurves" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "" {}
@@ -16,8 +18,6 @@ Shader "Hidden/ColorCorrectionCurves" {
 	// Shader code pasted into all further CGPROGRAM blocks
 	CGINCLUDE
 
-	#pragma fragmentoption ARB_precision_hint_fastest
-	
 	#include "UnityCG.cginc"
 	
 	struct v2f {
@@ -31,7 +31,8 @@ Shader "Hidden/ColorCorrectionCurves" {
 	
 	float4 _CameraDepthTexture_ST;
 	uniform float4 _MainTex_TexelSize;
-	
+	half4 _MainTex_ST;
+
 	sampler2D _RgbTex;
 	sampler2D _ZCurve; 
 	sampler2D _RgbDepthTex;
@@ -41,8 +42,8 @@ Shader "Hidden/ColorCorrectionCurves" {
 	v2f vert( appdata_img v ) 
 	{
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
-		o.uv =  v.texcoord.xy;
+		o.pos = UnityObjectToClipPos(v.vertex);
+		o.uv = UnityStereoScreenSpaceUVAdjust(v.texcoord.xy, _MainTex_ST);
 		o.uv2 = TRANSFORM_TEX(v.texcoord, _CameraDepthTexture);
 		
 		#if UNITY_UV_STARTS_AT_TOP
@@ -82,7 +83,6 @@ Shader "Hidden/ColorCorrectionCurves" {
 Subshader {
  Pass {
 	  ZTest Always Cull Off ZWrite Off
-	  Fog { Mode off }      
 
       CGPROGRAM
       #pragma vertex vert
