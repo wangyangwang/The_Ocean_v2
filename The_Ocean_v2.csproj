@@ -138,6 +138,7 @@
     <Compile Include="Assets\Ocean\Scripts\Ocean.cs" />
     <Compile Include="Assets\OceanMatModifier.cs" />
     <Compile Include="Assets\OceanModifier.cs" />
+    <Compile Include="Assets\RotateAround.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_Mask.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_RandomRotate.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_3\Scripts\Example_3_Mask.cs" />
