@@ -16,19 +16,14 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSXIntel:4</UnityBuildTarget>
-    <UnityVersion>5.6.1f1</UnityVersion>
+    <UnityVersion>2017.2.1f1</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
-    <NoConfig>true</NoConfig>
-    <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <AutoUnifyAssemblyReferences>false</AutoUnifyAssemblyReferences>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
     <NoStdLib>true</NoStdLib>
     <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <AutoUnifyAssemblyReferences>false</AutoUnifyAssemblyReferences>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,7 +32,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -47,76 +42,212 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/System.dll</HintPath>
     </Reference>
     <Reference Include="System.XML">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/System.XML.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity2017/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="VacuumShaders.TheAmazingWireframeShader">
       <HintPath>Assets/VacuumShaders/The Amazing Wireframe Shader/Scripts/VacuumShaders.TheAmazingWireframeShader.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Users/yangwang/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Users/yangwang/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="The_Ocean_v2.Plugins.csproj">
+      <Project>{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}</Project>
+      <Name>The_Ocean_v2.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="The_Ocean_v2.Plugins.unityproj">
       <Project>{22DF5DA2-D21B-7E01-0C04-5DA088EEBF25}</Project>
       <Name>The_Ocean_v2.Plugins</Name>
     </ProjectReference>
@@ -126,6 +257,9 @@
     <Compile Include="Assets\Gamestrap Editor Camera\CameraState.cs" />
     <Compile Include="Assets\Gamestrap Editor Camera\CameraViewsData.cs" />
     <Compile Include="Assets\MappingOceanSound.cs" />
+    <Compile Include="Assets\Mic.cs" />
+    <Compile Include="Assets\MicControlOcean.cs" />
+    <Compile Include="Assets\MicInput.cs" />
     <Compile Include="Assets\Ocean\Plugins\Exocortex_FFT\Complex.cs" />
     <Compile Include="Assets\Ocean\Plugins\Exocortex_FFT\ComplexArray.cs" />
     <Compile Include="Assets\Ocean\Plugins\Exocortex_FFT\ComplexF.cs" />
@@ -138,7 +272,127 @@
     <Compile Include="Assets\Ocean\Scripts\Ocean.cs" />
     <Compile Include="Assets\OceanMatModifier.cs" />
     <Compile Include="Assets\OceanModifier.cs" />
+    <Compile Include="Assets\oscReceive.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\RotateAround.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\GUI\guiFPS.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_animBoat.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_animCharacter.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_ControllerBoat.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_ControllerCharacter.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_ControllerMaster.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_ControllerOrbit.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_InputController.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_LightHandler.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_trigger.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\ui_suimonoFps.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\ui_suimonoHandler.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\cameraCausticsHandler.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\cameraTools.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_buoyancy.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_causticModule.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_causticObject.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_EffectObject.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_EffectTrail.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_soundModule.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Random.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Suimono_DistanceBlur.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Suimono_ShorelineObject.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Suimono_UnderwaterFog.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoCamera_depth.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoDepth.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoGaia.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoModule.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoModuleFX.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoModuleLib.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoObject.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\utility_AdjustCulling.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\utility_ConvertToSurface.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\utility_EventTrigger.cs" />
+    <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\utility_SaveMesh.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\Doxyfile.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Animation.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Camera.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Components.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Parameters.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_PostEffectsBase.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Resources.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Sky.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Sky_Quality.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Sky_Unity.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Sky_Variables.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_SunShafts.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Time.cs" />
+    <Compile Include="Assets\Time of Day\Assets\Scripts\TOD_Weather.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Scripts\FramesPerSecond.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Scripts\SkyTestGUI.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\AudioAtDay.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\AudioAtNight.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\AudioAtWeather.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\DeviceTime.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\LightAtDay.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\LightAtNight.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\LightAtWeather.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\ParticleAtDay.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\ParticleAtNight.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\ParticleAtWeather.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\RenderAtDay.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\RenderAtNight.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\RenderAtWeather.cs" />
+    <Compile Include="Assets\Time of Day\Example\Scripts\SkyboxGenerator.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_Mask.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_2\Scriptes\Example_2_RandomRotate.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_3\Scripts\Example_3_Mask.cs" />
@@ -149,11 +403,102 @@
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_8\Scripts\Example_8_Runtime_Quad_Converter.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_9\Scripts\Example_9_Animation.cs" />
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_9\Scripts\Example_9_UpdateWorldPos.cs" />
-    <Compile Include="Assets\oscReceive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ocean\Ocean Sources\ColoredBumpedDiffuse.shader" />
     <None Include="Assets\Ocean\Ocean Sources\Ocean.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Blue Ocean with Waves.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Buoyancy Scene Preset.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Calm Carribean Blue.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Calm Clear.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Calm Refraction Only.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Deep Dark Ocean.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Demo River Example.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Hot Spring Murky.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Lava Flow.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Mirror Reflection.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Mud Thick Brown.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Oil Slick.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Built-In Presets\SUIMONO_PRESET_Swimming Pool.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Custom\SUIMONO_PRESET_Custom Example 1.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESETS_Custom\SUIMONO_PRESET_CustomTest.txt" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_FX_Depth.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_FX_Fog.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_FX_NormalBlend.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_FX_ShorelineObject.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_FX_WakeMask.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_clearfx.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_depthmask.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_depthmask2.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_reflect.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_splash.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlpha.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlphaOverlay.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_surface.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_surface_scale.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_surface_under.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoDepth.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoDepthMask.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoDistanceBlur.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoDistanceBlur_orig.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoFunctionLibrary.cginc" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoUnderwaterFog.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Reflect-BumpSpec.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_Demo_HairSpec.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_Demo_Skin.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_ReflectBumpSpecDouble.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\TERRAIN\Shaders\suimono2_demo_flora_double.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\TERRAIN\Shaders\suimono2_demo_flora_single.shader" />
+    <None Include="Assets\SUIMONO - WATER SYSTEM 2\_Suimono2.1_ReadMe.txt" />
+    <None Include="Assets\Shaders\Gradients.shader" />
+    <None Include="Assets\Shaders\Height.shader" />
+    <None Include="Assets\Shaders\KRZ.shader" />
+    <None Include="Assets\Shaders\NewUnlitShader.shader" />
+    <None Include="Assets\Shaders\NoiseSurfaceShader.shader" />
+    <None Include="Assets\Shaders\fastnoise.cginc" />
+    <None Include="Assets\Shaders\gradient02.shader" />
+    <None Include="Assets\Shaders\noiseSimplex.cginc" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -234,6 +579,23 @@
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Atmosphere.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Clear Alpha.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Cloud Layers (Bumped).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Cloud Layers (Density).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Cloud Layers (Fastest).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Cloud Shadows (1).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Cloud Shadows (2).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Moon.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\PP Screen Clear.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\PP Sun Shafts.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Space.shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Sun (No Animation).shader" />
+    <None Include="Assets\Time of Day\Assets\Shaders\Sun.shader" />
+    <None Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\Time of Day\Demo\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_5\Shader\Background_2D.shader" />
     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Geometry Shader\Addative Simple Full.shader" />
     <None Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Shaders\Geometry Shader\Addative Simple Wire.shader" />

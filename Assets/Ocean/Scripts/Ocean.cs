@@ -25,7 +25,7 @@ public class Ocean : MonoBehaviour
 	public float speed = 0.7f;
 	public float wakeDistance = 5f;
 	public Vector3 size = new Vector3 (150.0f, 1.0f, 150.0f);
-	public int tiles = 2;
+	public int tiles = 30;
 
 	public float pWindx=10.0f;
 	public float windx {

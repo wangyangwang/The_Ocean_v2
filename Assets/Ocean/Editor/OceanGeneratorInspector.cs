@@ -199,7 +199,7 @@ public class OceanGeneratorInspector : Editor
 		    EditorGUILayout.EndVertical();
 		
 		    EditorGUILayout.LabelField("Tiles count");
-		    ocean.tiles = (int)EditorGUILayout.Slider(ocean.tiles, 1, 15);
+		    ocean.tiles = (int)EditorGUILayout.Slider(ocean.tiles, 1, 30);
 		    EditorGUILayout.LabelField("Tiles size");
 		    ocean.size = EditorGUILayout.Vector3Field("",ocean.size);
 		
