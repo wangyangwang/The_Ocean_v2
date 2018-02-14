@@ -292,6 +292,8 @@
     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Kino\Glitch\Shader\AnalogGlitch.shader" />
+    <None Include="Assets\Kino\Glitch\Shader\DigitalGlitch.shader" />
     <None Include="Assets\Ocean\Ocean Sources\ColoredBumpedDiffuse.shader" />
     <None Include="Assets\Ocean\Ocean Sources\Ocean.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />

@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{7463B060-AB62-6FBE-2A02-551AE38A2FC1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PIRSensor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Kino/Glitch/AnalogGlitch.cs">
     <Files>
       <File FileName="Assets/Ocean/Ocean Sources/Ocean.shader" Line="151" Column="17" />
       <File FileName="Assets/Ocean/Scripts/Ocean.cs" Line="18" Column="27" />
       <File FileName="Assets/MicInput.cs" Line="4" Column="1" />
       <File FileName="Assets/MainControl.cs" Line="8" Column="31" />
-      <File FileName="Assets/PIRSensor.cs" Line="19" Column="15" />
+      <File FileName="Assets/PIRSensor.cs" Line="25" Column="16" />
+      <File FileName="Assets/GlitchOcean.cs" Line="8" Column="20" />
+      <File FileName="Assets/Kino/Glitch/AnalogGlitch.cs" Line="39" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -338,6 +338,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Gamestrap Editor Camera\Editor\EditorCameraViewsWindow.cs" />
+    <Compile Include="Assets\Kino\Glitch\Editor\AnalogGlitchEditor.cs" />
+    <Compile Include="Assets\Kino\Glitch\Editor\DigitalGlitchEditor.cs" />
     <Compile Include="Assets\Ocean\Editor\OceanGeneratorInspector.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
@@ -388,6 +390,8 @@
     <Compile Include="Assets\Time of Day\Example\Editor\SkyboxGeneratorEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Kino\Glitch\Shader\AnalogGlitch.shader" />
+    <None Include="Assets\Kino\Glitch\Shader\DigitalGlitch.shader" />
     <None Include="Assets\Ocean\Ocean Sources\ColoredBumpedDiffuse.shader" />
     <None Include="Assets\Ocean\Ocean Sources\Ocean.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />

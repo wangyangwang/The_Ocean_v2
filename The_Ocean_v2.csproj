@@ -262,6 +262,9 @@
     <Compile Include="Assets\CustomFunc.cs" />
     <Compile Include="Assets\Gamestrap Editor Camera\CameraState.cs" />
     <Compile Include="Assets\Gamestrap Editor Camera\CameraViewsData.cs" />
+    <Compile Include="Assets\GlitchOcean.cs" />
+    <Compile Include="Assets\Kino\Glitch\AnalogGlitch.cs" />
+    <Compile Include="Assets\Kino\Glitch\DigitalGlitch.cs" />
     <Compile Include="Assets\MainControl.cs" />
     <Compile Include="Assets\MappingOceanSound.cs" />
     <Compile Include="Assets\Mic.cs" />
@@ -413,6 +416,8 @@
     <Compile Include="Assets\VacuumShaders\The Amazing Wireframe Shader\Example Scenes\Files\Example_9\Scripts\Example_9_UpdateWorldPos.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Kino\Glitch\Shader\AnalogGlitch.shader" />
+    <None Include="Assets\Kino\Glitch\Shader\DigitalGlitch.shader" />
     <None Include="Assets\Ocean\Ocean Sources\ColoredBumpedDiffuse.shader" />
     <None Include="Assets\Ocean\Ocean Sources\Ocean.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
